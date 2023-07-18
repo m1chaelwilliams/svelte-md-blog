@@ -8,7 +8,7 @@
     <header>
         <h1>Coding with Sphere 🌍</h1>
         <h3>Software Developer</h3>
-        <div class="socials">
+        <div class="contact-area">
             <div>
                 <a href="https://youtube.com/@codingwithsphere" target="_blank">YouTube</a>
                 <Icon icon="tabler:brand-youtube" />
@@ -31,7 +31,7 @@
 </main>
 
 <style>
-    .socials {
+    .contact-area {
         display: flex;
         justify-content: center;
         gap: 1rem;

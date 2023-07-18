@@ -2,11 +2,11 @@
     export let title: string = 'link';
     export let url: string = '/';
     export let icon: string;
-    import 'iconify-icon';
+    import Icon from "@iconify/svelte";
 </script>
 
 {#if icon}
-    <iconify-icon class="icon" icon={icon}></iconify-icon>
+    <Icon icon={icon} />
 {/if}
 <a href={url} target="_blank">{title}  </a>
 

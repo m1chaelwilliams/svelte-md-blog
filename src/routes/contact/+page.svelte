@@ -1,5 +1,5 @@
 <script lang="ts">
-    import 'iconify-icon'
+    import Icon from '@iconify/svelte';
 </script>
 
 <main>
@@ -13,11 +13,11 @@
         
         <div>
             <a href="https://youtube.com/@codingwithsphere" target="_blank">YouTube</a>
-            <iconify-icon class="icon" icon="tabler:brand-youtube"></iconify-icon>
+            <Icon icon="tabler:brand-youtube" />
         </div>
         <div>
             <a href="https://github.com/m1chaelwilliams" target="_blank">Github</a>
-            <iconify-icon class="icon" icon="tabler:brand-github"></iconify-icon>
+            <Icon icon="tabler:brand-github" />
         </div>
         
     </ul>

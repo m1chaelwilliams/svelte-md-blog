@@ -1,5 +1,5 @@
 <script lang="ts">
-    import '../main.css'
+    import '../../main.css'
     import Navbar from '$lib/components/navbar.svelte';
 </script>
 

@@ -1,11 +1,9 @@
-<script lang="ts">
-    import Link from "../../posts/link.svelte";
-</script>
+
 
 <main>
     <h1>Contact ✉</h1>
     <p>
-        You can contact me via <Link title="email" url="mailto:michaelwilliamscoding@gmail.com" icon="" />
+        Email: michaelwilliamscoding@gmail.com
     </p>
     <br>
     <h1>Where You can Find Me 👉💻</h1>

@@ -1,4 +1,6 @@
-
+<script lang="ts">
+    import 'iconify-icon'
+</script>
 
 <main>
     <h1>Contact ✉</h1>

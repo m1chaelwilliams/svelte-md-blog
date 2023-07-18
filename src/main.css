@@ -35,13 +35,3 @@ button {
     padding-inline: 1em;
     background-color: var(--background-secondary);
 }
-ol {
-    width: fit-content;
-    margin-inline: auto;
-    padding: 2rem;
-    list-style: none;
-}
-ol li::before {
-    content: "-";
-    margin-inline: 1rem;
-}

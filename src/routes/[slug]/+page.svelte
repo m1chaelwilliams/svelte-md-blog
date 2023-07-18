@@ -1,10 +1,12 @@
 <script lang="ts">
     export let data;
     import './mdstyles.css'
+    import { formatDate } from '$lib/utils';
 </script>
 
 <main>
     <h1>{data.meta.title}</h1>
+    <p>{formatDate(data.meta.date)}</p>
 
     <div class="content-container">
         <svelte:component this={data.content}></svelte:component>
@@ -12,9 +14,8 @@
 </main>
 
 <style>
-    h1 {
+    h1, p {
         text-align: center;
-        padding: 2rem;
     }
     .content-container {
         max-width: 60ch;

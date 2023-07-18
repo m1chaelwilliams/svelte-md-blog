@@ -1,5 +1,6 @@
 ---
 title: How I got into Game Development 🎮
+date: "2023-7-17"
 ---
 
 ![Picture of my recent game](save_4.png)

@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { formatDate } from '$lib/utils';
     export let data;
     import Link from '../posts/link.svelte';
 </script>
@@ -11,7 +12,10 @@
 
     <ul class="links">
         {#each data.posts as post}
-            <li><a href={post.slug}>{post.title}</a></li>
+            <li>
+                <a href={post.slug}>{post.title}</a>
+                <p>{formatDate(post.date)}</p>
+            </li>
         {/each}
     </ul>
 </main>

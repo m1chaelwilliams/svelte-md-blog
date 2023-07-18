@@ -1,12 +1,23 @@
 <script lang="ts">
 	import { formatDate } from '$lib/utils';
     export let data;
+    import Icon from '@iconify/svelte';
 </script>
 
 <main>
     <header>
         <h1>Coding with Sphere 🌍</h1>
         <h3>Software Developer</h3>
+        <div class="socials">
+            <div>
+                <a href="https://youtube.com/@codingwithsphere" target="_blank">YouTube</a>
+                <Icon icon="tabler:brand-youtube" />
+            </div>
+            <div>
+                <a href="https://github.com/m1chaelwilliams" target="_blank">Github</a>
+                <Icon icon="tabler:brand-github" />
+            </div>
+        </div>
     </header>
 
     <ul class="links">
@@ -20,6 +31,11 @@
 </main>
 
 <style>
+    .socials {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+    }
     header {
         text-align: center;
         padding: 5rem;
@@ -37,5 +53,10 @@
     }
     a:hover {
         color: var(--text-primary);
+    }
+    @media (max-width: 768px) {
+        header {
+            padding-inline: 2rem;
+        }
     }
 </style>

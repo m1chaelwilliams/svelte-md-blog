@@ -4,7 +4,6 @@ date: "2023-7-17"
 ---
 
 <script>
-    import Counter from './counter.svelte'
     import Link from './link.svelte'
 </script>
 

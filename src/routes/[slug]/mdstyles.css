@@ -1,9 +1,0 @@
-ol {
-    width: fit-content;
-    margin-inline: auto;
-    list-style: none;
-}
-ol li::before {
-    content: "-";
-    margin-inline: 1rem;
-}

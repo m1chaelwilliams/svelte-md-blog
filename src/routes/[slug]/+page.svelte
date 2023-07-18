@@ -1,6 +1,5 @@
 <script lang="ts">
     export let data;
-    import './mdstyles.css'
     import { formatDate } from '$lib/utils';
 </script>
 

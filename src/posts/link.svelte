@@ -1,7 +1,7 @@
 <script lang="ts">
     export let title: string = 'link';
     export let url: string = '/';
-    export let icon: string;
+    export let icon: string = "";
     import Icon from "@iconify/svelte";
 </script>
 

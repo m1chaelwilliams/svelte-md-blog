@@ -13,7 +13,14 @@ const config = {
 	extensions: ['.svelte', '.md'],
 	preprocess: [vitePreprocess(), mdsvex(mdsvexOptions)],
 	kit: {
-		adapter: adapter()
+		adapter: adapter(),
+		prerender: {
+			crawl: true,
+			enabled: true,
+			onError: "continue",
+			entries: ['*'],
+			default: true
+		}
 	}
 }
 

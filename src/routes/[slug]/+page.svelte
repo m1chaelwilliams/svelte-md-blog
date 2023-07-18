@@ -1,11 +1,9 @@
 <script lang="ts">
     export let data;
-    import { formatDate } from '$lib/utils';
 </script>
 
 <main>
     <h1>{data.meta.title}</h1>
-    <p>{formatDate(data.meta.date)}</p>
 
     <div class="content-container">
         <svelte:component this={data.content}></svelte:component>
@@ -13,7 +11,7 @@
 </main>
 
 <style>
-    h1, p {
+    h1 {
         text-align: center;
     }
     .content-container {

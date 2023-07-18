@@ -6,7 +6,8 @@
     <a class="brand" href="/">Sphere.dev</a>
     <ul class="links">
         <li><a class="link" href="/">Home</a></li>
-        <li><a class="link" href="/about-me">About</a></li>
+
+        <li><a class="link" href="/portfolio">Portfolio</a></li>
         <li><a class="link" href="/contact">Contact</a></li>
     </ul>
 </nav>

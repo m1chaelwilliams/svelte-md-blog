@@ -1,13 +1,13 @@
 <script lang="ts">
-    import { links } from "$lib/config";
+
 </script>
 
 <nav>
     <a class="brand" href="/">Sphere.dev</a>
     <ul class="links">
-        {#each links as link}
-            <li><a class="link" href={link.link}>{link.title}</a></li>
-        {/each}
+        <li><a class="link" href="/">Home</a></li>
+        <li><a class="link" href="/about-me">About</a></li>
+        <li><a class="link" href="/contact">Contact</a></li>
     </ul>
 </nav>
 

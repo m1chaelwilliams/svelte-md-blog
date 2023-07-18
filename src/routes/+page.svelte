@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { formatDate } from '$lib/utils';
+
     export let data;
     import Icon from '@iconify/svelte';
 </script>
@@ -24,7 +24,7 @@
         {#each data.posts as post}
             <li>
                 <a href={post.slug}>{post.title}</a>
-                <p>{formatDate(post.date)}</p>
+                
             </li>
         {/each}
     </ul>

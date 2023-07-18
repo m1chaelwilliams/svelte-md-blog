@@ -20,6 +20,7 @@
     .content-container {
         max-width: 60ch;
         margin-inline: auto;
+        padding: 1rem;
     }
     @media (max-width: 768px) {
         .content-container {

@@ -1,7 +1,6 @@
 <script lang="ts">
 	import { formatDate } from '$lib/utils';
     export let data;
-    import Link from '../posts/link.svelte';
 </script>
 
 <main>

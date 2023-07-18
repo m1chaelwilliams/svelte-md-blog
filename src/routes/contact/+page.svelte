@@ -10,8 +10,16 @@
     <br>
     <h1>Where You can Find Me 👉💻</h1>
     <ul class="links">
-        <Link title="YouTube" url="https://youtube.com/@codingwithsphere" icon="tabler:brand-youtube" />
-        <Link title="Github" url="https://Github.com/m1chaelwilliams" icon="tabler:brand-github" />
+        
+        <div>
+            <a href="https://youtube.com/@codingwithsphere" target="_blank">YouTube</a>
+            <iconify-icon class="icon" icon="tabler:brand-youtube"></iconify-icon>
+        </div>
+        <div>
+            <a href="https://github.com/m1chaelwilliams" target="_blank">Github</a>
+            <iconify-icon class="icon" icon="tabler:brand-github"></iconify-icon>
+        </div>
+        
     </ul>
 </main>
 
@@ -24,5 +32,14 @@
     }
     .links {
         margin-top: 1rem;
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+    }
+    a {
+        color: var(--text-secondary);
+    }
+    a:hover {
+        color: var(--text-primary);
     }
 </style>

@@ -5,10 +5,12 @@
     import Icon from "@iconify/svelte";
 </script>
 
-{#if icon}
+<div>
+    {#if icon}
     <Icon icon={icon} />
 {/if}
 <a href={url} target="_blank">{title}  </a>
+</div>
 
 <style>
     a {
@@ -16,5 +18,8 @@
     }
     a:hover {
         color: var(--text-primary);
+    }
+    div {
+        display: inline;
     }
 </style>

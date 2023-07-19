@@ -23,7 +23,6 @@ body {
 }
 img {
     max-width: 100%;
-    margin-block: 0.5rem;
 }
 pre {
     padding: 1rem;
@@ -35,12 +34,24 @@ button {
     padding-inline: 1em;
     background-color: var(--background-secondary);
 }
-ol {
-    width: fit-content;
-    margin-inline: auto;
-    list-style: none;
+ol, ul {
+    padding-inline: 2rem;
+    margin-bottom: 1rem;
+} 
+
+em {
+    color: var(--text-secondary);
+    font-size: 0.75rem;
 }
-ol li::before {
-    content: "-";
-    margin-inline: 1rem;
+p {
+    margin-bottom: 1rem;
+}
+pre {
+    border: 1px solid var(--background-secondary);
+}
+pre code {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    word-break: keep-all;
 }

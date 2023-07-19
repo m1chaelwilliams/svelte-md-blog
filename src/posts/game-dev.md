@@ -1,5 +1,5 @@
 ---
-title: How I got into Game Development 🎮
+title: My Game Dev Journey 🎮
 date: "2023-7-17"
 ---
 

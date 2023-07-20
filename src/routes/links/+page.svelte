@@ -26,4 +26,7 @@
         display: flex;
         flex-direction: column;
     }
+    main {
+        margin-top: 2rem;
+    }
 </style>

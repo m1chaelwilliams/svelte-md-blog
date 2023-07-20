@@ -47,6 +47,7 @@
     }
     h1 {
         text-align: center;
+        margin-top: 2rem;
     }
     .content-container {
         max-width: 60ch;

@@ -55,3 +55,9 @@ pre code {
     overflow-wrap: break-word;
     word-break: keep-all;
 }
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}

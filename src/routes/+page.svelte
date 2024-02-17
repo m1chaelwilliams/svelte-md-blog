@@ -1,6 +1,9 @@
 <script lang="ts">
     export let data;
     import Icon from '@iconify/svelte';
+
+    let pinned_posts = data.posts.filter(obj => obj.pinned === true);
+    let posts = data.posts.filter(obj => obj.pinned === false);
 </script>
 
 <main>
@@ -9,18 +12,25 @@
         <h3>Software Developer</h3>
         <div class="contact-area">
             <div>
-                <a href="https://youtube.com/@codingwithsphere" target="_blank">YouTube</a>
-                <Icon icon="tabler:brand-youtube" />
-            </div>
-            <div>
                 <a href="https://github.com/m1chaelwilliams" target="_blank">Github</a>
                 <Icon icon="tabler:brand-github" />
+            </div>
+            <div>
+                <a href="https://youtube.com/@codingwithsphere" target="_blank">YouTube</a>
+                <Icon icon="tabler:brand-youtube" />
             </div>
         </div>
     </header>
 
     <ul class="links">
-        {#each data.posts as post}
+        <p>--- Pinned ---</p>
+        {#each pinned_posts as post}
+            <li>
+                <a href={post.slug}>{post.title}</a>
+            </li>
+        {/each}
+        <p>--- Posts ---</p>
+        {#each posts as post}
             <li>
                 <a href={post.slug}>{post.title}</a>
             </li>
@@ -37,6 +47,7 @@
     header {
         text-align: center;
         padding: 5rem;
+        padding-bottom: 3rem;
     }
     h3 {
         color: var(--text-secondary);
@@ -56,5 +67,9 @@
         header {
             padding-inline: 2rem;
         }
+    }
+    p {
+        text-align: center;
+        margin-bottom: 0;
     }
 </style>

@@ -8,9 +8,9 @@
         <p>Where you can find me</p>
     </header>
     <nav>
-        <Link title="Website" url="/" icon="tabler:device-desktop"/>
-        <Link title="YouTube" url="https://youtube.com/@codingwithsphere" icon="tabler:brand-youtube" />
         <Link title="Github" url="https://github.com/m1chaelwilliams" icon="tabler:brand-github" />
+        <Link title="Linked In" url="/" icon="tabler:brand-linkedin"/>
+        <Link title="YouTube" url="https://youtube.com/@codingwithsphere" icon="tabler:brand-youtube" />
         <Link title="Discord" url="https://discord.gg/3FxVWRDdXD" icon="tabler:brand-discord" />
         <Link title="Patreon" url="https://patreon.com/codingwithsphere" icon="tabler:brand-patreon" />
     </nav>

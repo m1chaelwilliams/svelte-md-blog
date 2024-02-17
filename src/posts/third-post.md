@@ -1,6 +1,7 @@
 ---
 title: Why I Started YouTube 🎥
 date: "2023-7-17"
+pinned: false
 ---
 
 ![Picture of my Channel](mychannel.PNG)

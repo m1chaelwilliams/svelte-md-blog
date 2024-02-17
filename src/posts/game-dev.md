@@ -1,6 +1,7 @@
 ---
 title: My Game Dev Journey 🎮
 date: "2023-7-17"
+pinned: false
 ---
 
 ![Picture of my recent game](save_4.png)

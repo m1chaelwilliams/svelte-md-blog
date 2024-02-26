@@ -14,10 +14,10 @@
 
 <style>
     a {
-        color: var(--text-secondary);
+        color: var(--text-primary);
     }
     a:hover {
-        color: var(--text-primary);
+        color: var(--text-secondary);
     }
     div {
         display: inline;

@@ -3,18 +3,24 @@
 </script>
 
 <main>
+	
+	<h1>
+		Projects
+	</h1>
+
 	<div class="container">
+		
 		<div>
-			<h3>1. Typing Game</h3>
+			<h3>Typing Game</h3>
 			<a target="_blank" href="https://github.com/m1chaelwilliams/typinggame.git" class="link">Github ➡️</a>
 			<a target="_blank" href="https://minimaltypingtest.netlify.app" class="link">Website ➡️</a>
 		</div>		
 		<div>
-			<h3>3. Project Manager</h3>
+			<h3>Project Manager</h3>
 			<a target="_blank" href="https://github.com/m1chaelwilliams/projectmanager.git" class="link">Github ➡️</a>
 		</div>	
 		<div>
-			<h3>4. Data Serialization Language</h3>
+			<h3>Data Serialization Language</h3>
 			<a target="_blank" href="https://github.com/m1chaelwilliams/cws-data-serializer.git" class="link">Github ➡️</a>
 		</div>	
 	</div>
@@ -24,9 +30,12 @@
 	main {
 		display: flex;
 		justify-content: center;
+		flex-direction: column;
+		align-items: center;
+		margin-top: 5rem;
 	}
 	.container {
-		padding: 5rem;
+		padding: 2rem;
 		display: flex;
 		flex-direction: column;
 		align-items: flex-start;

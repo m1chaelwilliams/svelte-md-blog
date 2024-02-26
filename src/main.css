@@ -4,17 +4,17 @@
     margin: 0;
     padding: 0;
     font-family: var(--ff-base);
-    color: var(--text-primary);
+    color: var(--text-secondary);
 }
 body {
     background-color: var(--background-primary);
     line-height: 2.25rem;
 }
 :root {
-    --background-primary: #282828;
-    --background-secondary: #928374;
-    --text-primary: #ebdbb2;
-    --text-secondary: #a89984;
+    --background-primary: rgb(11, 11, 11);
+    --background-secondary: rgb(17, 17, 17);
+    --text-primary: rgb(230, 230, 230);
+    --text-secondary: rgb(179, 179, 179);
     --text-alert: #fabd2f;
     --text-warning: #fb4934;
 
@@ -40,9 +40,16 @@ ol, ul {
 } 
 
 em {
-    color: var(--text-secondary);
+    color: var(--text-primary);
     font-size: 0.75rem;
 }
+
+h1,
+h2,
+h3 {
+    color: var(--text-primary);
+}
+
 p {
     margin-bottom: 1rem;
 }
@@ -57,7 +64,9 @@ pre code {
 }
 a {
     text-decoration: none;
+    color: var(--text-primary);
 }
 a:hover {
     text-decoration: underline;
+    color: var(--text-secondary);
 }

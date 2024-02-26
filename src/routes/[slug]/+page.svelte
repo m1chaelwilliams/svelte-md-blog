@@ -12,7 +12,6 @@
     </div>
     <div class="links">
         <div class="column">
-            <p>Socials:</p>
             <div>
                 <Link title="YouTube" url="https://youtube.com/@codingwithsphere" icon="tabler:brand-youtube" />
             <Link title="Github" url="https://github.com/m1chaelwilliams" icon="tabler:brand-github" />

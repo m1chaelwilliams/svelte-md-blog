@@ -16,7 +16,9 @@
 
 <style>
     main {
-        border-bottom: 1px solid var(--background-secondary);
+        border-bottom: 1px dashed var(--text-secondary);
+        background-color: var(--background-primary);
+        /* background: radial-gradient(circle at 24.1% 68.8%, rgb(25, 25, 25) 0%, rgb(0, 0, 0) 99.4%); */
     }
     nav {
         display: flex;

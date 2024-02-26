@@ -9,7 +9,7 @@
 <main>
     <header>
         <h1>Coding with Sphere 🌍</h1>
-        <h3>Software Developer</h3>
+        <h5>Software Developer | Content Creator</h5>
         <div class="contact-area">
             <div>
                 <a href="https://github.com/m1chaelwilliams" target="_blank">Github</a>
@@ -39,6 +39,7 @@
 </main>
 
 <style>
+    
     .contact-area {
         display: flex;
         justify-content: center;
@@ -57,12 +58,7 @@
         margin-inline: auto;
         list-style: none;
     }
-    a {
-        color: var(--text-secondary);
-    }
-    a:hover {
-        color: var(--text-primary);
-    }
+    
     @media (max-width: 768px) {
         header {
             padding-inline: 2rem;
